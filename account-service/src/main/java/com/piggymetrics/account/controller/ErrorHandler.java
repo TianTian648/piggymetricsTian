@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ControllerAdvice
 public class ErrorHandler {
-
+	/**
+	 * 全局异常处理器
+	 */
 	private final Logger log = LoggerFactory.getLogger(getClass());
 
 	// TODO add MethodArgumentNotValidException handler
